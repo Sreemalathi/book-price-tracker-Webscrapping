@@ -9,7 +9,7 @@ from email.message import EmailMessage
 
 URL = "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
 FILE = "BooksWebScrapper.csv"
-THRESHOLD = 60  # email me if the price drops below this (current price is £51.77)
+THRESHOLD = 60  # email if the price drops below this (current price is £51.77)
 
 
 def create_csv_if_missing():
